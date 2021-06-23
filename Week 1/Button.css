@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 10%;
+}
+.bold {
+    height: 30px;
+    width: 25%;
+    font-weight: bold;
+    border-radius: 25px;
+    color: turquoise;
+    border: solid turquoise;
+    display: block;
+    margin-bottom: 10px;
+}
+.plus {
+    background-color: turquoise;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 1.5em;
+    color: white;
+    border: none;
+    display: block;
+    margin-bottom: 10px;
+}
+.create {
+    background-color: dodgerblue;
+    height: 35px;
+    width: 30%;
+    font-size: 1.1em;
+    font-weight: light;
+    border-color: black;
+    border-width: 0.1em;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+}

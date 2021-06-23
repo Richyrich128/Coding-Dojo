@@ -1,4 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    padding: 20px;
+}
 h1 {
     background-color: black;
     color: white;
+    margin-bottom: 7px;
+}
+h2 {
+    background-color: purple;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 7px;
+}
+h3 {
+    background-color: aqua;
+    text-decoration: underline;
+    text-align: right;
 }
