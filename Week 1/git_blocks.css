@@ -1,0 +1,26 @@
+#top {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: blue;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#mid {
+    display: flex;
+    background-color: blueviolet;
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#bottom {
+    display: flex;
+    background-color: crimson;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
