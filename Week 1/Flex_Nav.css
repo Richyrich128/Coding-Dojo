@@ -1,0 +1,45 @@
+.nav {
+    height: 40px;
+    display: flex;
+    background-color: dimgray;
+    padding: 5px;
+}
+.nav-links {
+    height: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: lightgrey;
+}
+.nav-title {
+    height: 20px;
+    color: white;
+    margin-left: 10px;
+    justify-content: flex-start;
+    font-family: serif;
+    margin-top: 0px;
+}
+.btn {
+    color: white;
+    border: 2px;
+    background-color: darkturquoise;
+    box-shadow: 5px 5px 1px black;
+}
+h1 {
+    margin-right: 200px;
+}
+ul {
+    justify-content: space-between;
+    margin-right: 20px;
+}
+#home {
+    margin-right: 20px;
+    text-decoration: none;
+    color: lightgrey;
+}
+#active {
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}
