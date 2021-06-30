@@ -1,0 +1,76 @@
+* {
+    margin: 0;  
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.heading {
+    display: flex;
+    background-color: lightgrey;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#searchBar {
+    height: 25px;
+    width: 25%;
+    background-color: white;
+    border-style: solid;
+    background-position: right;
+    color: lightgray;
+    border-color: black;
+    padding-right: 50px;
+}
+button {
+    border-style: solid;
+    border-color: black;
+    box-shadow: 3px 3px 2px ;
+    height: 25px;
+}
+.log {
+    background-color: cornflowerblue;
+    
+}
+.likes {
+    background-color: gold;
+}
+.firstNinja {
+    border-color: black;
+    border-style: solid;
+    margin-bottom: 20px;
+    padding: 3%;
+    display: flex;
+    width: 90%;
+}
+.leftHalf {
+    text-align: center;
+
+}
+.rightHalf {
+    margin-left: 30px;
+    margin-top: 10%;
+}
+.blue {
+    text-decoration: underline;
+    color: blue;
+}
+.ninja {
+    margin-bottom: 5px;
+}
+.content {
+    display: flex;
+}
+.rightBox {
+    border-style: solid;
+    width: 40%;
+    height: 20%;
+    padding: 10px;
+
+}
+.def {
+    background-color: lightgreen;
+}
+

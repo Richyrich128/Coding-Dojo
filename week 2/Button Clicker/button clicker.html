@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="button.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Dojonary</h1>
+        <span id="searchBar" >Search</span>
+        <button class="log" onclick="logout(this)">Login</button>
+    </div>
+    <div class="content">
+        <div class="definitions">
+            <div class="firstNinja">
+                
+                <div class="leftHalf">
+                    <h1 class="ninja">ninja</h1>
+                    <span>noun</span>
+                    <p>Plural: ninjas</p>
+                    <button class="likes" onclick="alert('ninja was liked')">13 likes</button>
+                </div>
+                <div class="rightHalf">
+                    <Span>
+                        A practitioner skilles in the
+                        <span class="blue">Japanese</span> art of <span class="blue">ninjutsu</span>
+                    </Span>
+
+                </div>
+            </div>
+            <div class="firstNinja">
+                
+                <div class="leftHalf">
+                    <h1 class="ninja">ninja</h1>
+                    <span >noun</span>
+                    <p>Plural: ninjas</p>
+                    <button class="likes" onclick="alert('ninja was liked')">37 likes</button>
+                </div>
+                <div class="rightHalf">
+                    <Span>
+                        A <span class="blue">programmer</span> who breaks
+                        down problems with <span class="blue">zen</span>-like
+                        focus
+                    </Span>
+
+                </div>
+            </div>
+        </div>
+        <div class="rightBox">
+            <h3>
+                Dojonary is defined by <strong>YOU</strong>
+            </h3>
+            <p>
+            <button class="def" onclick="remove(this)">Add Definition</button>
+            </p>
+        </div>
+    </div>
+    <script src="interactive.js"></script>
+</body>
+</html>
