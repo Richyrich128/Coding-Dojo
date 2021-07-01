@@ -1,0 +1,186 @@
+
+.nav {
+    height: 40px;
+    width: 101%;
+    display: flex;
+    background-color: black;
+    padding: 5px;
+    margin: -10px;
+    
+}
+.nav-links {
+    height: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: lightgrey;
+}
+.nav-title {
+    height: 20px;
+    color: white;
+    margin-left: 70px;
+    justify-content: flex-start;
+    font-family: serif;
+    margin-top: 0px;
+}
+.btn {
+    color: white;
+    border: 2px;
+    background-color: darkturquoise;
+    box-shadow: 5px 5px 1px black;
+    margin-left: 155px;
+}
+h1 {
+    margin-right: 0px;
+}
+ul {
+    justify-content: space-between;
+    margin-right: 20px;
+}
+#home {
+    margin-right: 20px;
+    text-decoration: none;
+    color: lightgrey;
+}
+#active {
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}
+#prof {
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 350px;
+    height: 260px;
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+.box {
+    background-color: cadetblue;
+    position: absolute;
+    height: 60px;
+    width: 354px;
+    margin-top: -2px;
+    margin-left: -2px;
+}
+.gear_line {
+    color: blue;
+    margin-left: 10px;
+}
+.space {
+    margin-top: -15px;
+}
+div {
+    margin-left: 10px;
+}
+.circle {
+    position: relative;
+    margin-top: 9%;
+    left: 5%;
+    margin-bottom: -25px;
+}
+.seperate {
+    display: block;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+#edu {
+    background-color:rgb(78, 78, 78);
+    color: white;
+    padding: 5px;
+    width: 350px;
+    margin-left: 30px;
+}
+.eduBorder {
+    margin-top: 25px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-color: lightgrey;
+    width: 350px;
+    margin-left: 40px;
+}
+.left {
+   vertical-align: middle;
+}
+.right {
+    margin-top: 22px;
+}
+.sideBySide {
+    display: flex;
+}
+.grey {
+    background-color: rgb(78, 78, 78);
+    padding: 10px;
+    margin-top: -2px;
+    margin-left: -2px;
+    width: 234px;
+    margin-bottom: 10px;
+}
+.requests {
+    border-style: solid;
+    border-color: lightgray;
+    width: 250px;
+    margin-left: 20px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+#todd {
+    margin-left: 10px;
+    margin-right: 60px;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+#phil {
+    margin-left: 10px;
+    margin-right: 65px;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.numReq {
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 30px;
+}
+.rect {
+    color: white;
+}
+.addDrop {
+    align-items: middle;
+    margin-bottom: 20px;
+}
+.con {
+    margin-left: 10px;
+    height: 22px;
+    width: 40px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 30px;
+}
+.connections {
+    border-style: solid;
+    border-color: lightgrey;
+    width: 250px;
+    margin-left: 20px;
+}
+.bottom {
+    margin-bottom: 10px;
+}
+.more {
+    margin-left: 10px;
+    color: blue;
+    text-decoration: underline;
+    border-top-style: solid;
+    border-color: lightgray;
+    margin-bottom: 10px;
+    padding: 5px;
+}

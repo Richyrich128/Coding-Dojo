@@ -1,8 +1,10 @@
 .nav {
     height: 40px;
     display: flex;
-    background-color: dimgray;
+    background-color: black;
     padding: 5px;
+    margin: 0;
+    
 }
 .nav-links {
     height: 10px;
