@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network</title>
+    <link rel="stylesheet" href="net.css">
+</head>
+<body>
+    <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Network</h1>
+    <span style="font-size: 30px;" class="main">Your Feed</span>
+    <div class="fullBody">
+        <div class="left">
+            <img src="user-circle.png" alt="circle">
+            <p class="avatar">Add an avatar</p>
+            <p id="text">James Doe</p>
+
+        </div>
+        <div class="right">
+            <div class="user">
+                <div class="firstLine">
+                    <span class="space">Neil M</span>
+                    <span id="count">9 like(s)</span>
+                    <button class="like" onclick="neilLikes()">Like</button>
+                </div>
+                <span>I just set up this new discord bot, let me know what you all think. 
+                    <span style="color: blue; text-decoration: underline;"> link</span>
+                </span>
+        
+            </div>
+            <div class="user">
+                <div class="firstLine">
+                    <span class="space">Nichole K</span>
+                    <span id="count1">12 like(s)</span>
+                    <button class="like" onclick="nicoleLikes()">Like</button>
+                </div>
+                <span>Just finished my 
+                    <span style="color: blue; text-decoration: underline;"> next comic,</span>
+                    check it out.
+                </span>
+            </div>
+            <div class="user">
+                <div class="firstLine">
+                    <span class="space">Jim R</span>
+                    <span id="count2">9 like(s)</span>
+                    <button class="like" onclick="jimLikes()">Like</button>
+                </div>
+                <span>I can't stop listening to the  
+                    <span style="color: blue; text-decoration: underline;"> new album.</span>
+                    Who else is liking it?
+                </span>
+        
+            </div>
+        </div>
+    </div>
+
+
+    <script src="network.js"></script>
+</body>
+</html>
