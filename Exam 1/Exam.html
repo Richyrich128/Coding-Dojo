@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="examN.css">
+</head>
+<body>
+    <div class="header">
+        <h1 style="margin: 15px;">Just<span style="color: chocolate;">Dessert</span></h1>
+        <button class="join" onclick="removeJoin(this)">Join</button>
+        <button class="login">login</button>
+    </div>
+    <div class="tan">
+        <form id="form">
+            <input type="text" placeholder="SEARCH" id="bar" >
+            <button class="go" onclick="displaySearch()">Go</button>
+        </form>
+        <img src="cake.png" alt="cake" class="Seperate">
+        <img src="ice-cream.png" alt="icecream" class="Seperate">
+        <img src="cookie.png" alt="cookie" class="Seperate">
+        <img src="pie.png" alt="pie" class="Seperate">
+    </div>
+    <div class="fullBody">
+        <div class="left">
+            <span style="color: blue;" class="block"> Recipe of the Day</span>
+            <img src="orange-tart.jpg" alt="tart" style="width: 300px;" class="tart">
+            <div class="heartLine">
+                <span class="pic">Orange Tea Jelly Tart</span>
+                <input type="image" alt="heart" src="heart.png" height="20px" onclick="like()">
+                <span id="add">68</span>
+            </div>
+            <span>by: <span style="text-decoration: underline; color: blue;">yuripiano</span></span>
+            <p style="color: blue;text-decoration: underline;" class="recipe">See Full Recipe</p>
+        </div>
+        <div class="right">
+            <Span class="start">Recommended for you:</Span>
+
+            <div class="box">
+                <img src="macarons.jpg" alt="mac" width="200px">
+                <div class="heartLine">
+                    <span class="rightPics">Macarons</span>
+                    <input type="image" alt="heart" src="heart.png" height="20px" onclick="like1()">
+                    <span id="add1">212</span>
+                </div>
+                <span>by: </span>
+                    <span style="text-decoration: underline; color: blue;" class="heartLine"> EmilieW</span>
+            </div>
+            <div>
+                <img src="creme-brulee.jpg" alt="brulee" width="200px">
+                <div class="heartLine">
+                    <span class="rightPic">Creme Brulee</span>
+                    <input type="image" alt="heart" src="heart.png" height="20px" onclick="like2()">
+                    <span id="add2">33</span>
+                </div>
+                <span>by: <span style="text-decoration: underline; color: blue;" class="heartLine">MarisaG</span></span>
+            </div>
+        </div>
+    </div>
+    <script src="justDessert.js"></script>
+</body>
+</html>
