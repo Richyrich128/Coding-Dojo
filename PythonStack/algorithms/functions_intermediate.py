@@ -32,6 +32,27 @@ def iterate_dictionary(names):
         print(f"first_name - {f}, last_name - {l}")
 
 iterate_dictionary(students) 
+print()
 # should output: (it's okay if each key-value pair ends up on 2 separate lines;
 # bonus to get them to appear exactly as below!)
 
+def iterate_dictionary2(key_name, some_list):
+    for i in some_list:
+        print(i[key_name])
+iterate_dictionary2("first_name", students)
+print()
+dojo = {
+   'locations': ['San Jose', 'Seattle', 'Dallas', 'Chicago', 'Tulsa', 'DC', 'Burbank'],
+   'instructors': ['Michael', 'Amy', 'Eduardo', 'Josh', 'Graham', 'Patrick', 'Minh', 'Devon']
+}
+
+def print_info(some_dict):
+    for i in some_dict.keys():
+        print(str(len(some_dict[i])) + " " + i.upper())
+        for j in some_dict[i]:
+            print(j)
+        print()
+
+
+
+print_info(dojo)
