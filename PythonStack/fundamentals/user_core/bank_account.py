@@ -29,8 +29,8 @@ class BankAccount:
                 if self.balance > 0:
                         self.balance += self.balance * self.int_rate
                 return self      
-richard = BankAccount(0.1, 500)
-yeesa = BankAccount(0.1, 800)
+richard = BankAccount(0.01, 500)
+yeesa = BankAccount(0.01, 800)
 
 richard.deposit(150).deposit(200).deposit(40).withdraw(430).yield_interest().display_account_info()
 
