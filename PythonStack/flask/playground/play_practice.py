@@ -6,12 +6,12 @@ app = Flask(__name__)
 def play1():
     return render_template("play.html",num=3,color="blue")
 
-@app.route("/play/<int:num>")
+@app.route("/play/<num>")
 def play2(num):
     times = int(num)
     return render_template("play.html",num=times,color="blue")
 
-@app.route("/play/<int:num>/<color>")
+@app.route("/play/<num>/<color>")
 def play3(num, color):
     times = int(num)
     c = color
