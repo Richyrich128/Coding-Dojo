@@ -1,0 +1,21 @@
+.col0{
+    background-color: red;
+}
+.col1{
+    background-color: black;
+}
+h1 {
+    background-color: red;
+    color: black
+}
+td {
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    margin-bottom: -2px;
+}
+body {
+    text-align: center;
+}
+
