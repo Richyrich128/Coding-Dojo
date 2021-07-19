@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who you</title>
+    <link rel="stylesheet" href="C:\Users\richa\Documents\Coding Dojo\PythonStack\flask\dojo_survey\static\looks.css">
+</head>
+<body id="body">
+    <div class="form_box">
+        <form action="/process" method = "POST">
+            <!-- Needs 4 divs and 1 button inside the form. -->
+            <div>
+                <label for="users_name">Your Name: </label>
+                <input type="text" name = "users_name">
+            </div>
+            <div>
+                <label for="locations">Dojo Location: </label>
+                <select name="locations">
+                    <!-- 4 locations-->
+                    <option>Bellevue</option>
+                    <option>Chicago</option>
+                    <option>Burbank</option>
+                    <option>online</option>
+                </select>
+            </div>
+            <div>
+                <label for="languages">Favorite Language: </label>
+                <select name="languages">
+                    <option>python</option>
+                    <option>java</option>
+                    <option>sql</option>
+                    <option>html</option>
+                </select>
+            </div>
+            <div class="under">
+                <label for="comments">Comment (optional): </label>
+                <textarea type = "text" name="comments" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit" class="button">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

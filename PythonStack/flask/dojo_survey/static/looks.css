@@ -1,0 +1,17 @@
+#body {
+    padding: 20%;
+}
+
+.form_box {
+    border-style: solid;
+    width: 245px;
+    padding: 50px;
+    top: 50%;
+    left: 50%;
+}
+.button {
+    margin-left: 180px;
+}
+.back {
+    border-style: solid;
+}
