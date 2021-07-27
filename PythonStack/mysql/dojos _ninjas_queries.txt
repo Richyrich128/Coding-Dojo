@@ -1,0 +1,52 @@
+Task 3 new dojos
+
+INSERT INTO dojos(name, created_at, updated_at)
+VALUES('Seattle', NOW(), NOW()), ('Chicago', NOW(), NOW()), ('Los Angeles', NOW(), NOW());
+
+Task Delete above inserts
+maybe need
+SET SQL_SAFE_UPDATES = 0;
+
+DELETE FROM dojos
+WHERE id IN(1, 2, 3);
+
+Tasks Make 3 more dojos
+INSERT INTO dojos(name, created_at, updated_at)
+VALUES('Dallas', NOW(), NOW()), ('Boise', NOW(), NOW()), ('San Jose', NOW(), NOW());
+
+Task Create 3 ninjas that belong to the first dojo (aka dojo.id 1)
+INSERT INTO ninjas(first_name, last_name, age, created_at, updated_at, dojo_id)
+Values
+('richy', 'Cast', 20, NOW(), NOW(), 1),
+('hello', 'world', 21, NOW(), NOW(), 1),
+('leo', 'dicaprio', 22, NOW(), NOW(), 1);
+
+Task Create 3 ninjas that belong to the second dojo (aka ninjas.dojo_id 2)
+INSERT INTO ninjas(first_name, last_name, age, created_at, updated_at, dojo_id)
+Values
+('Dr.', 'Strange', 15, NOW(), NOW(), 2),
+('Nick', 'Fury', 16, NOW(), NOW(), 2),
+('Black', 'Widow', 17, NOW(), NOW(), 2);
+
+Task Create 3 ninjas that belong to the third dojo (aka ninjas.dojo_id 3)
+INSERT INTO ninjas(first_name, last_name, age, created_at, updated_at, dojo_id)
+Values
+('Spider', 'Man', 16, NOW(), NOW(), 3),
+('Cpt', 'Marvel', 32, NOW(), NOW(), 3),
+('Captain', 'Price', 46, NOW(), NOW(), 3);
+
+Task Retrieve 1st dojo ninjas
+SELECT *
+FROM ninjas
+WHERE dojo_id = 1;
+
+Task Retrieve last dojo ninjas
+SELECT *
+FROM ninjas
+WHERE dojo_id = 3;
+
+Task Retrieve last ninja's dojo
+SELECT *
+FROM ninjas
+ORDER BY id DESC
+LIMIT 1;
